@@ -114,13 +114,58 @@ tl.to(
   1.2
 );
 
-/**tl.to(
+// 2
+
+tl.to(
   '.logo-line-1, .logo-line-2',
   {
     y: '-400%',
-    duration: 0.4,
+    duration: 0.6,
+    ease: 'power3.in',
   },
   2
+);
+
+tl.to(
+  '#logoLineGroup',
+  {
+    y: '0%',
+    duration: 0.6,
+    ease: 'power3.in',
+  },
+  2
+);
+
+// 2.6
+
+tl.to(
+  '.logo-scale-container',
+  {
+    scale: 2,
+    duration: 0.6,
+    ease: 'power3.in',
+  },
+  2.8
+);
+
+tl.to(
+  '.logo-line-2',
+  {
+    y: '-350%',
+    duration: 0.6,
+    ease: 'power3.in',
+  },
+  2.8
+);
+
+/**tl.to(
+  '.logo-container',
+  {
+    lineHeight: 1.5,
+    duration: 0.6,
+    ease: 'power3.in',
+  },
+  2.8
 );**/
 
 /**tl.to(
