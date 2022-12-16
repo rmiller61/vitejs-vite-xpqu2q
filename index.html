@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+    <style>
+      body {
+        font-family: 'Helvetica Neue', Sans-serif;
+        font-size: 48px;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 0;
+        margin: 0;
+        line-height: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="loader">
+      <div class="loader-container">
+        <div class="quadrants">
+          <div class="top left"></div>
+          <div class="top right">
+            <div class="logo-container">
+              <div class="logo-line logo-line-1">
+                <div id="logoLineGroup" class="lines">
+                  <div id="logoTopLine" class="horizontal top line"></div>
+                  <div id="logoLeftLine" class="vertical left line"></div>
+                </div>
+                FABRIC
+              </div>
+              <div class="logo-line logo-line-2">HOUSING</div>
+            </div>
+            <div class="lines">
+              <div id="logoBottomLine" class="horizontal bottom line"></div>
+            </div>
+          </div>
+          <div class="bottom right">
+            <div class="lines">
+              <div id="bottomLeftLine" class="vertical left line"></div>
+            </div>
+          </div>
+          <div class="bottom left"></div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/index.ts"></script>
+  </body>
+</html>

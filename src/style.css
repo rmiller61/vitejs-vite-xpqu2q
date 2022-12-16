@@ -1,0 +1,94 @@
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  padding: 60px 0px;
+}
+
+.loader-container {
+  position: absolute;
+  top: 60px;
+  left: 40px;
+  bottom: 60px;
+  right: 40px;
+}
+
+.lines .line {
+  position: absolute;
+}
+
+.lines .vertical {
+  border-left: 4px solid currentColor;
+  /***margin-left: -2px;**/
+  top: 0;
+  height: 100%;
+}
+
+.lines .vertical.center {
+  margin-left: -1px;
+  left: 50%;
+}
+
+.lines .horizontal {
+  border-top: 4px solid currentColor;
+  width: 100%;
+}
+
+.lines .horizontal.center {
+  margin-top: -2px;
+  top: 50%;
+}
+
+.lines .horizontal.top {
+  top: 0;
+}
+
+.lines .horizontal.bottom {
+  bottom: 0;
+}
+
+.quadrants,
+.lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.quadrants > * {
+  position: absolute;
+  height: 50%;
+  width: 50%;
+}
+
+.quadrants .top {
+  top: 0;
+}
+
+.quadrants .bottom {
+  bottom: 0;
+}
+
+.quadrants .right {
+  right: 0;
+}
+
+.quadrants .left {
+  left: 0;
+}
+
+.logo-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /**justify-content: flex-end;**/
+  overflow: hidden;
+}
+
+.logo-line {
+  padding-left: 10px;
+  position: relative;
+}
